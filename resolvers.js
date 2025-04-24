@@ -1,5 +1,4 @@
-const Usuario = require('../server/models/usuariosModel');
-const Perfil = require('../server/models/perfilModel');
+const Perfil = require('./models/perfilModel');
 
 const resolvers = {
   Query: {
